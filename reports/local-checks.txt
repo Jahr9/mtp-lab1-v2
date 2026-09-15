@@ -18,3 +18,7 @@ $ git check-ignore -v --no-index __pycache__/main.pyc .venv/example.txt .env
 .gitignore:1:__pycache__/	__pycache__/main.pyc
 .gitignore:3:.venv/	.venv/example.txt
 .gitignore:5:.env	.env
+
+Style check commit: 0ec56b8d55ef3c57df19334489ebbaaadc4d21ac
+$ python -m flake8 main.py tests
+flake8 7.3.0; exit code 0; no diagnostics.
