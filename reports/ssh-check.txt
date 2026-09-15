@@ -1,0 +1,4 @@
+Source: reports/ssh-success.png (user-provided terminal screenshot)
+Command: ssh -T git@github.com
+
+Hi Jahr9! You've successfully authenticated, but GitHub does not provide shell access.
