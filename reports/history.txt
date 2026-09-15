@@ -1,0 +1,6 @@
+cd306ef | feat: add automated Python checks
+99f0139 | feat: add average score tests
+5debef8 | docs: exclude Python caches and local settings
+6419a98 | feat: calculate average student score
+45198c0 | feat: add initial grade tracker
+b326e10 | Initial commit

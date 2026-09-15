@@ -1,0 +1,20 @@
+Checked commit: cd306ef35b77b70a176ae96ee95ed3aad371948e
+Python: 3.12.14
+
+$ python main.py
+Average score: 4.25
+
+$ python -m unittest discover -s tests -v
+test_empty_scores (test_main.AverageScoreTests.test_empty_scores) ... ok
+test_several_scores (test_main.AverageScoreTests.test_several_scores) ... ok
+test_single_score (test_main.AverageScoreTests.test_single_score) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+
+$ git check-ignore -v --no-index __pycache__/main.pyc .venv/example.txt .env
+.gitignore:1:__pycache__/	__pycache__/main.pyc
+.gitignore:3:.venv/	.venv/example.txt
+.gitignore:5:.env	.env
